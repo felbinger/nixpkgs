@@ -17968,6 +17968,8 @@ self: super: with self; {
 
   shellescape = callPackage ../development/python-modules/shellescape { };
 
+  shelljob = callPackage ../development/python-modules/shelljob { };
+
   shellingham = callPackage ../development/python-modules/shellingham { };
 
   sherpa-onnx = callPackage ../development/python-modules/sherpa-onnx {
