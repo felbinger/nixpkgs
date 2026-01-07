@@ -1993,6 +1993,26 @@
     };
     version = "3.10.0";
   };
+  jekyll-algolia = {
+    dependencies = [
+      # "algolia_html_extractor"
+      "algoliasearch"
+      # "filesize"
+      "jekyll"
+      "json"
+      "nokogiri"
+      # "progressbar"
+      # "verbal_expressions"
+    ];
+    groups = [ "default" ];
+    platforms = [ ];
+    source = {
+      remotes = [ "https://rubygems.org" ];
+      sha256 = "sha256-DxUB0uwdZVAmHDT0/01GxysTUoI8TFuMZ2MryScZ+0k=";
+      type = "gem";
+    };
+    version = "1.7.1";
+  };
   jekyll-archives = {
     dependencies = [ "jekyll" ];
     groups = [ "default" ];
@@ -2003,6 +2023,28 @@
       type = "gem";
     };
     version = "2.3.0";
+  };
+  jekyll-assets = {
+    dependencies = [
+      "activesupport"
+      "execjs"
+      # "extras"
+      # "fastimage"
+      "jekyll"
+      # "jekyll-sanity"
+      # "liquid-tag-parser"
+      "nokogiri"
+      "pathutil"
+      # "sprockets"
+    ];
+    groups = [ "default" ];
+    platforms = [ ];
+    source = {
+      remotes = [ "https://rubygems.org" ];
+      sha256 = "sha256-wwLuV74habVcbz3DPYC7YbgpHnc4JrapPpgYxBgI++A=";
+      type = "gem";
+    };
+    version = "3.0.12";
   };
   jekyll-avatar = {
     dependencies = [ "jekyll" ];
@@ -2141,6 +2183,23 @@
       type = "gem";
     };
     version = "1.6.0";
+  };
+  jekyll-minifier = {
+    dependencies = [
+      "jekyll"
+      # "cssminify2"
+      # "htmlcompressor"
+      # "json-minify"
+      # "terser"
+    ];
+    groups = [ "default" ];
+    platforms = [ ];
+    source = {
+      remotes = [ "https://rubygems.org" ];
+      sha256 = "sha256-8KGCuYs2lJK52T8d0GQiPPBKELoxxJ4VNfKP41dk7hk=";
+      type = "gem";
+    };
+    version = "0.2.2";
   };
   jekyll-optional-front-matter = {
     dependencies = [ "jekyll" ];
