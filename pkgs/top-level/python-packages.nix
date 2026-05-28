@@ -12644,6 +12644,8 @@ self: super: with self; {
 
   openstep-plist = callPackage ../development/python-modules/openstep-plist { };
 
+  opentakserver = callPackage ../development/python-modules/opentakserver { };
+
   opentelemetry-api = callPackage ../development/python-modules/opentelemetry-api { };
 
   opentelemetry-distro = callPackage ../development/python-modules/opentelemetry-distro { };
