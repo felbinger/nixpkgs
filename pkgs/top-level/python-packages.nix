@@ -14966,6 +14966,8 @@ self: super: with self; {
 
   pygatt = callPackage ../development/python-modules/pygatt { };
 
+  pygc = callPackage ../development/python-modules/pygc { };
+
   pygccxml = callPackage ../development/python-modules/pygccxml { };
 
   pygdbmi = callPackage ../development/python-modules/pygdbmi { };
