@@ -539,6 +539,12 @@ lib.mapAttrs mkLicense (
       fullName = "Cronyx License";
     };
 
+    oai-cssl = {
+      fullName = "Collaborative Standards Software License v1.0";
+      url = "https://openairinterface.org/oai-cssl/";
+      free = false;
+    };
+
     curl = {
       spdxId = "curl";
       fullName = "curl License";
